@@ -62,4 +62,4 @@ It takes a lot of time and effort to build and annotate historical corpora well,
 # Comments
 
 If you have comments or questions about anything, feel free to email christopher.ahern@gmail.com 
-or [create an issue](https://github.com/christopherahern/SEMPRAG/issues).
+or [create an issue](https://github.com/christopherahern/jespersens-cycle-middle-english/issues)
