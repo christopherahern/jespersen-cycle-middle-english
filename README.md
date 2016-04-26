@@ -50,6 +50,14 @@ Now run the make script to output the data to `neg-data.csv`:
     ./make.sh
 
 
+As a point of reference, `make.sh` takes less than two minutes to run on a laptop:
+
+    time ./make.sh
+
+    real	1m24.266s
+    user	1m48.135s
+    sys	0m2.013s
+
 # Citation
 
 If you use this repository to generate data, please cite it. More importantly, if you use data generated
