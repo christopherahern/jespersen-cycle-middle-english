@@ -5,7 +5,7 @@ Cycle in Middle English using the second edition of the
  [Penn Parsed Corpus of Middle English (PPCME2)](https://www.ling.upenn.edu/hist-corpora/).
 
 The query and codes included are based on [work](https://github.com/christopherahern/digs15-negative-priming.git)
-[Aaron Ecay](http://aaronecay.com/) and [Meredith Tamminga](http://meredithtamminga.com/). I'd like to thank them
+done by [Aaron Ecay](http://aaronecay.com/) and [Meredith Tamminga](http://meredithtamminga.com/). I'd like to thank them
 for sharing their time and expertise in understanding the queries and code. Note that the results generated
 here are [distinct though](https://github.com/christopherahern/digs15-negative-priming/issues/1). 
 
