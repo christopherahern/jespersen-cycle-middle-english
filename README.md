@@ -50,13 +50,10 @@ Now run the make script to output the data to `neg-data.csv`:
     ./make.sh
 
 
-# License
+# Citation
 
-If you want to cite this paper, please use the following:
-
-
-If you use this data please cite [the corpus](https://www.ling.upenn.edu/hist-corpora/citing-corpora.html)
- used:
+If you use this repository to generate data, please cite it. More importantly, if you use data generated
+from the parsed corpus please cite [the corpus](https://www.ling.upenn.edu/hist-corpora/citing-corpora.html):
 
 > Kroch, Anthony, and Ann Taylor. 2000. The Penn-Helsinki Parsed Corpus of Middle English (PPCME2). Department of Linguistics, University of Pennsylvania. CD-ROM, second edition, release 4. 
 
