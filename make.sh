@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Copyright 2013 Aaron Ecay
-# Available under the Creative Commons AT-SA or GPL v2+ licenses: see
-# the file LICENSE for more information
-
 # 1) output parsed corpus files to current directory
 cat data/corpus/psd/*.psd > ppcme2.out 
 
