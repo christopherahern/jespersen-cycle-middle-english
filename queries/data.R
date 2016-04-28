@@ -23,7 +23,7 @@ df$stage = ifelse(df$has.both, 2, ifelse(df$has.ne, 1, 3))
 df$has.ne <- df$has.not <- df$has.both <- NULL
 
 # Write data to csv
-write.csv(df, file = "neg-data.csv", row.names = FALSE)
+write.csv(df, file = "../data/neg-data.csv", row.names = FALSE)
 # Summarize document dates and write to csv
 document.dates <- df %>% group_by(document, year) %>% summarize()
-write.csv(document.dates, file = "document-dates.csv", row.names = FALSE)
+write.csv(document.dates, file = "../data/document-dates.csv", row.names = FALSE)

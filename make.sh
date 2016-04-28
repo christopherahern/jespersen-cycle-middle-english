@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 1) output parsed corpus files to current directory
-cat data/corpus/psd/*.psd > ppcme2.out 
-
+cat corpus/corpus/psd/*.psd > queries/ppcme2.out 
+cd queries
 
 # 2) download and alias corpus search
 wget "http://downloads.sourceforge.net/project/corpussearch/CS_2.003.04.jar?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fcorpussearch%2F&ts=1461693336&use_mirror=kent" -O CS_2.003.04.jar

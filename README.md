@@ -7,7 +7,7 @@ Cycle in Middle English using the second edition of the
 The query and codes included are based on [work](https://github.com/christopherahern/digs15-negative-priming.git)
 done by [Aaron Ecay](http://aaronecay.com/) and [Meredith Tamminga](http://meredithtamminga.com/). I'd like to thank them
 for sharing their time and expertise in understanding the queries and code. Note that the results generated
-here are [distinct though](https://github.com/christopherahern/digs15-negative-priming/issues/1). 
+here are [distinct](https://github.com/christopherahern/digs15-negative-priming/issues/1). 
 
 
 # Instructions
@@ -31,7 +31,6 @@ This change is often referred to as Jespersen's Cycle, following Dahl (1979), du
 observation that:
 
 > The history of negative expressions in various languages makes us witness the following curious fluctuation: the original negative adverb is first weakened, then found insufficient and therefore strengthened, generally through some additional word, and this in its turn may be felt as the negative proper and may then in course of time be subject to the same developments as the original word
-
  
 
 ## Code
@@ -43,9 +42,9 @@ To run the code either download the files as a [ZIP](https://github.com/christop
 
 Change directories to the cloned repository and create a symbolic link to your copy of your local copy of the [PPCME2](https://www.ling.upenn.edu/hist-corpora/PPCME2-RELEASE-4/index.html):
 
-    ln -s <location of PPCME2> data 
+    ln -s <location of PPCME2> corpus 
 
-Now run the make script to output the data to `neg-data.csv`:
+Now run the make script to output the data to `data/neg-data.csv`:
 
     ./make.sh
 
@@ -60,7 +59,7 @@ As a point of reference, `make.sh` takes less than two minutes to run on a lapto
 
 ## Output
 
-The data will be output to `neg-data.csv` with the following columns:
+The data will be output to `data/neg-data.csv` with the following columns:
 
 * exclude : tokens we might want to exclude for various reasons
 * ne : whether *ne* appears and whether it is contracted  
@@ -73,7 +72,7 @@ The data will be output to `neg-data.csv` with the following columns:
 * document : name of the document containing the token
 * stage : (1) ne..., (2) ne...not, (3) ...not
 
-Note that most of these are defined by the queries in `coding.c` and the script `data.R`.
+Note that these are all defined by the queries in `coding.c` and the script `data.R`.
 
 # Citation
 
