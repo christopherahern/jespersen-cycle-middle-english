@@ -156,14 +156,8 @@ coding_query:
    -: ELSE
 }
 
-/* not position */
-9: {
-   preverbal: IP* idoms NEG* AND NEG* idomsonly not AND IP* idoms tensed_verb AND NEG* precedes tensed_verb
-   postverbal: IP* idoms NEG* AND NEG* idomsonly not AND IP* idoms tensed_verb AND tensed_verb precedes NEG*
-   -: ELSE
-}
 
-10: {
+9: {
     finite: IP* idoms tensed_verb
     -: ELSE
 }

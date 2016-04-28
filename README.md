@@ -58,6 +58,23 @@ As a point of reference, `make.sh` takes less than two minutes to run on a lapto
     user	1m48.135s
     sys	0m2.013s
 
+## Output
+
+The data will be output to `neg-data.csv` with the following columns:
+
+* exclude : tokens we might want to exclude for various reasons
+* ne : whether *ne* appears and whether it is contracted  
+* not : whether *not* appears and whether it is before or after the verb
+* clausetype : details about whether the token appears in a matrix or relative clause
+* never.posn : whether *never* appears and whether it is before or after the verb 
+* finite : whether or not the clause is finite 
+* id : unique id of the sentence containing the token
+* year : year of the document containing the token
+* document : name of the document containing the token
+* stage : (1) ne..., (2) ne...not, (3) ...not
+
+Note that most of these are defined by the queries in `coding.c` and the script `data.R`.
+
 # Citation
 
 If you use this repository to generate data, please cite it. More importantly, if you use data generated
