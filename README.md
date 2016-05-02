@@ -56,7 +56,7 @@ As a point of reference, `make.sh` takes less than two minutes to run on a lapto
 
     real	1m24.266s
     user	1m48.135s
-    sys	        0m2.013s
+    sys	0m2.013s
 
 ## Output
 
