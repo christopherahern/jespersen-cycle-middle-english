@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 0) check that data directory exists
-if [[ ! -e data ]] ; mkdir data ; fi
+if [[ ! -e data ]] ; then mkdir data ; fi
 
 # 1) output parsed corpus files to current directory
 cat corpus/corpus/psd/*.psd > queries/ppcme2.out 
