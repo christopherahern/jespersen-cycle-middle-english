@@ -7,10 +7,7 @@ if [[ ! -e data ]] ; then mkdir data ; fi
 cat corpus/corpus/psd/*.psd > queries/ppcme2.out 
 cd queries
 
-# 2) download and alias corpus search
-wget "http://downloads.sourceforge.net/project/corpussearch/CS_2.003.04.jar?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fcorpussearch%2F&ts=1461693336&use_mirror=kent" -O CS_2.003.04.jar
-
-# Edit this command to point to CorpusSearch on your machine
+# 2) Edit this command to point to CorpusSearch on your machine
 CS_COMMAND="java -classpath ./CS_2.003.04.jar csearch/CorpusSearch"
 
 # 3) Run revision queries to deal with how the corpus was constructed
@@ -27,7 +24,6 @@ $CS_COMMAND filter.q all-revisions.out
 $CS_COMMAND coding.c filter.out
 
 # 5) Extract just the coding to a data file
-
 $CS_COMMAND only_coding.q coding.cod
 
 # 6) Process the output of corpus search
